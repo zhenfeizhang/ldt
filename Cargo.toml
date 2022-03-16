@@ -20,7 +20,7 @@ ark-test-curves = { version = "^0.3.0", default-features = false, features = ["b
 
 [patch.crates-io]
 ark-sponge = {git = "https://github.com/arkworks-rs/sponge"}
-ark-r1cs-std = {git = "https://github.com/arkworks-rs/r1cs-std", branch = "master"}
+ark-r1cs-std = {git = "https://github.com/arkworks-rs/r1cs-std", rev = "50ab8ee5ba8c09637044718eceac38e98e0ea67c"}
 
 [features]
 default = ["std"]
